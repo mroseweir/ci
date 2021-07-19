@@ -44,6 +44,7 @@ workflows:
       - two:
           requires:
             - one
+      - npm run test
 
 # version: 2
 # jobs: # we now have TWO jobs, so that a workflow can coordinate them!

@@ -10,4 +10,4 @@ quickMafs = (num1, num2) => {
     return num1 + num2;
 };
   
-  module.exports = { getGreeting, findSum, quickMafs };
+module.exports = { getGreeting, findSum, quickMafs };
